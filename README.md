@@ -21,3 +21,14 @@ CREATE TABLE Comment (
     FOREIGN KEY (PostId) REFERENCES BlogPost(Id) ON DELETE CASCADE
 );
 ```
+
+ ## Melhorias  👋
+```json
+1. Tratamento Global de Erros 
+2. Validação de Entrada com FluentValidation
+3. Notificações de Domínio
+4. Logging Profissional com Serilog
+5. Validação de ModelState
+6. Controle de Versionamento da API
+7. Segurança e Validação de Token (JWT/Claims)
+```
