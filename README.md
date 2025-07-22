@@ -1,8 +1,8 @@
-## PPara Rodar o projeto no Sql Server
+## Para Rodar o projeto no Sql Server
 
 ## Criar banco de dados com o nome "Blog"  👋
 
-## Criar Criar as tabelas abaixo"  👋
+## Criar as tabelas abaixo"  👋
 
 ```json
 {
@@ -20,6 +20,4 @@ CREATE TABLE Comment (
     CreatedAt DATETIME DEFAULT GETDATE(),
     FOREIGN KEY (PostId) REFERENCES BlogPost(Id) ON DELETE CASCADE
 );
-
-  }
-}
+```
